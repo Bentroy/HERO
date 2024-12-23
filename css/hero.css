@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+:root{
+    --header-background-color: #1f2937;
+    --header-font-family: 'Roboto', sans-serif;
+
+    --header-link-text-color: #e5e7eb;
+    --header-link-text-font-size: 18px;
+
+    --hero-main-text-color: #F9FAF8;
+    --hero-main-text-font-size: 48px;
+    --hero-main-text-font-weight: 900;
+
+    --hero-secondary-text-color: #e5e7eb;
+    --hero-secondary-text-font-size: 18px;
+
+    --information-header-text-color: #1F2937;
+    --information-header-text-font-size: 36px;
+    --information-header-text-font-weight: 900;
+
+    --quote-section-background-color: #e5e7eb;
+    --quote-text-color: #1f2937;
+    --quote-text-font-size: 36px;
+    --quote-text-font-style: italic;
+
+    --btn-color: #3382F6;
+    --footer-background-color: #1f2937;
+
+}
