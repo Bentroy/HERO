@@ -54,7 +54,7 @@ header{
     margin-right: 10%;
     margin-left: 10%;
 }
-/*HEADER STYLE ENDING*/
+
 
 
 /*LOGO STYLE BEGINING*/
@@ -100,3 +100,32 @@ header{
     font-size: var(--header-link-text-font-size);
 }
 /*NAV LINKS STYLE ENDING*/
+
+/*HEADER STYLE ENDING*/
+
+
+
+
+/*HERO SECTION BEGINING*/
+.hero{
+    background-color: var(--header-background-color);
+}
+.contain{
+    font-family: var(--header-font-family);
+    background-color: var(--header-background-color);
+    padding-top: 10%;
+    width: 80%;
+    justify-content: space-e;
+    min-height: 100%;
+    margin-right: 10%;
+    margin-left: 10.6%;
+    display: flex;
+}
+
+.word{
+    width: 50%;
+    margin
+}
+.image{
+    width: 50%;
+}
