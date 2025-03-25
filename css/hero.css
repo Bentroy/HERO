@@ -15,8 +15,9 @@
     --header-logo-text-font-size: 24px;
     --header-logo-font-family: 'Roboto', sans-serif;
 
-    --header-link-text-color: #e5e7eb;
+    --header-link-text-color: #E5E7Eb;
     --header-link-text-font-size: 18px;
+    --header-link-text-font-weight: 400;
 
     --hero-main-text-color: #F9FAF8;
     --hero-main-text-font-size: 48px;
@@ -51,8 +52,9 @@ header{
     min-height: 100%;
     display: flex;
     justify-content: space-between;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 15%;
+    margin-left: 15%;
+    width: 70%;
 }
 
 
@@ -71,14 +73,14 @@ header{
 
 
 /*SEARCH STYLE BEGINING*/
-.search{
+/* .search{
     width: 30%;
     height: 30px;
     border-radius: 2rem;
     border: none;
     padding: 7px 10px;
     margin-top: 8px;
-}
+} */
 /*SEARCH STYLE ENDING*/
 
 
@@ -98,6 +100,7 @@ header{
     color: var(--header-link-text-color);
     font-family: Roboto, sans-serif;
     font-size: var(--header-link-text-font-size);
+    font-weight: var(--header-link-text-font-weight);
 }
 /*NAV LINKS STYLE ENDING*/
 
