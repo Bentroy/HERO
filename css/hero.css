@@ -185,3 +185,27 @@ img{
     font-family: var(--information-header-text-font-family);
     text-align: center;
 }
+
+
+.cards{
+    width: 60%;
+    min-height: 100%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    margin-top: 5%;
+    text-align: center;
+    color: #1f2937;
+    font-size: 15px;
+    font-family: var(--hero-secondary-text-font-family);
+}
+
+.bord{
+    border: 3px solid #3382F6;
+    height: 150px;
+    border-radius: 10px;
+}
