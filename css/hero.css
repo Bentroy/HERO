@@ -286,4 +286,14 @@ img{
 /* BUTTON END */
 
 
-FOOTER START
+/* FOOTER START */
+
+.footer{
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    color: #e5e7eb;
+    background-color: var(--footer-background-color);
+    font-family: var(--footer-font-family);
+    padding: 30px;
+}
