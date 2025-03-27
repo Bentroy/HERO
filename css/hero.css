@@ -37,8 +37,8 @@
     --information-header-text-font-family: 'Roboto', sans-serif;
 
     --quote-section-background-color: #e5e7eb;
-    --quote-text-color: #1f2937;
-    --quote-text-font-size: 36px;
+    --quote-text-color: #1f29379a;
+    --quote-text-font-size: 23px;
     --quote-text-font-style: italic;
     --quote-font-family: 'Roboto', sans-serif;
 
@@ -217,5 +217,24 @@ img{
 .quote{
     width: 100%;
     min-height: 100%;
-    
+    background-color: var(--quote-section-background-color);
+    justify-items: center;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+
+
+.txt{
+    color: var(--quote-text-color);
+    font-size: var(--quote-text-font-size);
+    font-style: var(--quote-text-font-style);
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+
+.author{
+    color: #1F2937;
+    text-align: right;
+    font-style: normal;
+    font-size: 15px;
 }
