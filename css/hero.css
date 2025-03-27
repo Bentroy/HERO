@@ -287,7 +287,6 @@ img{
 
 
 /* FOOTER START */
-
 .footer{
     width: 100%;
     min-height: 100%;
@@ -297,3 +296,4 @@ img{
     font-family: var(--footer-font-family);
     padding: 30px;
 }
+/* FOOTER END */
